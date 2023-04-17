@@ -4,8 +4,8 @@
   --secondary-white-color: #f4f4fd;
   --accent-light-color: #e7e9fc;
   --primary-brand-color: #4d5ae5;
-  --body-mail-color: #2e2f42;
-  --text-main-color: #434455;
+  --body-main-color: #434455;
+  --text-main-color: #2e2f42;
 }
 
 .list {
@@ -18,7 +18,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--body-mail-color);
+  color: var(--body-main-color);
+  background-color: var(--primary-white-color);
 }
 
 /* ==================== COMPONENTS ==================== */
@@ -28,7 +29,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: var(--primary-brand-color);
+  background-color: var(--primary-brand-color);
   color: var(--primary-white-color);
   cursor: pointer;
   font-family: inherit;
@@ -36,17 +37,17 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .modal-btn-light {
-  background: var(--accent-light-color);
+  background-color: var(--secondary-white-color);
   color: var(--primary-brand-color);
   border: 1px solid var(--accent-light-color);
 }
 .modal-btn-light:hover,
 .modal-btn-light:focus {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
@@ -56,6 +57,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--text-main-color);
 }
 
 .subtitle {
@@ -63,13 +65,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--text-main-color);
 }
 
 .desc {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-main-color);
 }
 
 /* ==================== /COMPONENTS ==================== */
@@ -80,14 +82,14 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
 }
 
 .accent {
-  color: var(--body-mail-color);
+  color: var(--text-main-color);
 }
 
 .menu-link {
@@ -95,7 +97,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-mail-color);
+  color: var(--text-main-color);
 }
 
 .menu-link:hover,
@@ -109,7 +111,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-main-color);
+  color: var(--body-main-color);
 }
 
 .contact-link:hover,
@@ -122,7 +124,7 @@ body {
 /* ==================== HERO ==================== */
 
 .hero {
-  background: var(--body-mail-color);
+  background-color: var(--text-main-color);
 }
 
 .main-title {
@@ -132,6 +134,7 @@ body {
   letter-spacing: 0.02em;
   width: 496px;
   height: 120px;
+  text-align: center;
   color: var(--primary-white-color);
 }
 
@@ -145,14 +148,22 @@ body {
 
 /* ==================== /FEATURES ==================== */
 
+/* ==================== ABOUT ==================== */
+
+.about-title {
+  text-align: center;
+}
+
+/* ==================== /ABOUT ==================== */
+
 /* ==================== OUR TEAM ==================== */
 
 .team-section {
-  background: var(--secondary-white-color);
+  background-color: var(--secondary-white-color);
 }
 
 .team-item {
-  background: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 
 /* ==================== OUR TEAM ==================== */
@@ -160,7 +171,7 @@ body {
 /* ==================== FOOTER ==================== */
 
 .footer {
-  background: var(--body-mail-color);
+  background-color: var(--text-main-color);
 }
 
 .accent-light {
@@ -173,7 +184,7 @@ body {
 /* ==================== /FOOTER ==================== */
 
 /* ==================== APPS ==================== */
-.apps-subtitle {
-  color: var(--body-mail-color);
+.apps-desc {
+  color: var(--body-main-color);
 }
 /* ==================== /APPS ==================== */
