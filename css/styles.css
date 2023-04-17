@@ -32,6 +32,17 @@ body {
   background: var(--accent-color);
 }
 
+.modal-btn-light {
+  background: #e7e9fc;
+  color: #4d5ae5;
+  border: 1px solid #e7e9fc;
+}
+.modal-btn-light:hover,
+.modal-btn-light:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -160,3 +171,10 @@ body {
   color: #f4f4fd;
 }
 /* ==================== /FOOTER ==================== */
+/* ==================== FILTERS ==================== */
+/* ==================== /FILTERS ==================== */
+/* ==================== APPS ==================== */
+.apps-subtitle {
+  color: #2e2f42;
+}
+/* ==================== /APPS ==================== */
