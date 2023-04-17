@@ -1,5 +1,11 @@
 :root {
   --accent-color: #404bbf;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+  --accent-light-color: #e7e9fc;
+  --primary-brand-color: #4d5ae5;
+  --body-mail-color: #2e2f42;
+  --text-main-color: #434455;
 }
 
 .list {
@@ -12,7 +18,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: var(--body-mail-color);
 }
 
 /* ==================== COMPONENTS ==================== */
@@ -22,9 +28,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: #4d5ae5;
-  color: #ffffff;
+  background: var(--primary-brand-color);
+  color: var(--primary-white-color);
   cursor: pointer;
+  font-family: inherit;
 }
 
 .modal-btn:hover,
@@ -33,14 +40,14 @@ body {
 }
 
 .modal-btn-light {
-  background: #e7e9fc;
-  color: #4d5ae5;
-  border: 1px solid #e7e9fc;
+  background: var(--accent-light-color);
+  color: var(--primary-brand-color);
+  border: 1px solid var(--accent-light-color);
 }
 .modal-btn-light:hover,
 .modal-btn-light:focus {
   background: var(--accent-color);
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .title {
@@ -59,11 +66,10 @@ body {
 }
 
 .desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-main-color);
 }
 
 /* ==================== /COMPONENTS ==================== */
@@ -75,15 +81,13 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 
 .accent {
-  color: #2e2f42;
+  color: var(--body-mail-color);
 }
 
 .menu-link {
@@ -91,7 +95,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--body-mail-color);
 }
 
 .menu-link:hover,
@@ -105,7 +109,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-main-color);
 }
 
 .contact-link:hover,
@@ -118,7 +122,7 @@ body {
 /* ==================== HERO ==================== */
 
 .hero {
-  background: #2e2f42;
+  background: var(--body-mail-color);
 }
 
 .main-title {
@@ -128,7 +132,7 @@ body {
   letter-spacing: 0.02em;
   width: 496px;
   height: 120px;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 /* ==================== /HERO ==================== */
@@ -141,18 +145,14 @@ body {
 
 /* ==================== /FEATURES ==================== */
 
-/* ==================== ABOUT ==================== */
-
-/* ==================== /ABOUT ==================== */
-
 /* ==================== OUR TEAM ==================== */
 
 .team-section {
-  background: #f4f4fd;
+  background: var(--secondary-white-color);
 }
 
 .team-item {
-  background: #ffffff;
+  background: var(--primary-white-color);
 }
 
 /* ==================== OUR TEAM ==================== */
@@ -160,21 +160,20 @@ body {
 /* ==================== FOOTER ==================== */
 
 .footer {
-  background: #2e2f42;
+  background: var(--body-mail-color);
 }
 
 .accent-light {
-  color: #f4f4fd;
+  color: var(--secondary-white-color);
 }
 
 .desc-light {
-  color: #f4f4fd;
+  color: var(--secondary-white-color);
 }
 /* ==================== /FOOTER ==================== */
-/* ==================== FILTERS ==================== */
-/* ==================== /FILTERS ==================== */
+
 /* ==================== APPS ==================== */
 .apps-subtitle {
-  color: #2e2f42;
+  color: var(--body-mail-color);
 }
 /* ==================== /APPS ==================== */
